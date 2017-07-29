@@ -7,3 +7,5 @@ bu email ve sifreyle bakıcı login olabiliyor.
 uygulama içerisinde telefonun galerisine baglanıp ordan resim secip uygulamaya yükleme yapbiliyoruz ve her resmin altında notlar paylasabiliyoruz bunları
 liste halinde görebiliyoruz.
 ayrıca uygulamada mesajlasma özelliği de yer almakta bakıcı ve ebeveyn arsında mesajlasma yapılabiliyor.
+
+bakıcı admin sayfasından veri girişi yapılıyor ve bu veriler ebveyn admin sayfasında okunabiliyor.
