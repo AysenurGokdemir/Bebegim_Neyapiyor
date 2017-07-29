@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edt_email_uyeol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="mail adresi"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_sifreUyeOl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="sifre"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edt_sifre_tekrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="sifre tekrar"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_uye_ol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="uye ol" />
+
+    <TextView
+        android:id="@+id/tv_register_registered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="uye misiniz"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</LinearLayout>

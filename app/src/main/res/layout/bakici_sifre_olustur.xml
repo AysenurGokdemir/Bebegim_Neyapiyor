@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/dadi_kullanici_adi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="kullanici Adi"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/bakıcı_sifresi_olustur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="sifre olustur"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/olustur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sifre olustur" />
+</LinearLayout>

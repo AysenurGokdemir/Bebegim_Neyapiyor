@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bakici iletisim"
+        android:textSize="24sp"
+        android:layout_weight="0.16" />
+
+    <EditText
+        android:id="@+id/ad_soyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Adi Soyadi" />
+
+    <EditText
+        android:id="@+id/ev_adresi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ev Adresi"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/telefon_numarasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon Numarasi"
+        android:ems="10"
+        android:inputType="phone" />
+
+
+
+    <TextView
+        android:id="@+id/bilgi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maaş Bilgisi ve Izinler icin tıklayınız"
+        android:textColor="@color/mor"
+        android:textSize="24sp" />
+
+</LinearLayout>

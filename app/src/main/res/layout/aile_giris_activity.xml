@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/images">
+
+    <EditText
+        android:id="@+id/edt_kullanici_adi"
+        android:layout_width="227dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Kullanici Adi"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_Mail_Adresi"
+        android:layout_width="303dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="E mail"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_sifre"
+        android:layout_width="310dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:hint="sifre"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_aile_giris_yap"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="giriş yap" />
+</LinearLayout>

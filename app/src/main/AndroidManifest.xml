@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.bbebegim_neyapiyor">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <activity
+            android:name=".DadiActivity_nav"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+
+    <activity
+        android:name=".EbeveynAktivity_nav"
+        android:label="@string/title_activity_main2"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".LoginActivity"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+    </activity>
+
+    <activity android:name=".Splash">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+    </activity>
+        <activity android:name=".MainActivityy"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+           <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+
+        </intent-filter>
+        </activity>
+        <activity android:name=".ImageListActivity"></activity>
+        <activity android:name=".Aile_uye_ol"></activity>
+        <activity android:name=".Aile_GirisActivity"></activity>
+        <activity android:name=".Bakici_GirisActivity"></activity>
+        <activity android:name=".AnaSayfaActivity"></activity>
+        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".KayitOlActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".MainActivity"
+            >
+        </activity>
+
+    </application>
+</manifest>

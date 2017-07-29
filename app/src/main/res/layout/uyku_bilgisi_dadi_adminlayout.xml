@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan1">
+    <EditText
+        android:id="@+id/sabah_uyku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="sabah uyku saatleri gir"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textColor="@color/cardview_dark_background"
+        android:inputType="textMultiLine"
+        />
+
+    <EditText
+        android:id="@+id/oglen_uyku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="oglen uyudugu saatler"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textColor="@color/cardview_dark_background"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/aksam_uyku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="aksam uyudugu saatler"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textColor="@color/cardview_dark_background"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/tarih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="tarih"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textColor="@color/cardview_dark_background"/>
+
+   />
+
+    <Button
+        android:id="@+id/uyku_kaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KAYDET"
+        android:background="@color/mor"/>
+</LinearLayout>
